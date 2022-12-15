@@ -78,10 +78,9 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Science and Technology of China,</span>
-            <br>
-            <span class="author-block"><sup>2</sup>Hong Kong University of Science and Technology,</span>
-            <span class="author-block"><sup>3</sup>Microsoft Research</span>
+            <span class="author-block"><sup>1</sup>USTC,</span>
+            <span class="author-block"><sup>2</sup>HKUST,</span>
+            <span class="author-block"><sup>3</sup>Microsoft</span>
           </div>
 
           <div class="column has-text-centered">
@@ -126,6 +125,40 @@
   </div>
 </section>
 
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Self_example.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Cross_in_the_wild.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Personalization_obama.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Personalization_IU.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -141,7 +174,6 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method</h2>
@@ -150,13 +182,34 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            Given a source image and a driving video, we first extract their dense landmarks using a pretrained landmark detector. Then, we estimate warping flows between the source image and each driving frame according to concatenated input. We further refine the warped source input using an ID-preserving network. Finally, we enhance and upsample the 256x256$ results to high-fidelity output in 512x512.
+            Given a source image and a driving video, we first extract their dense landmarks using a pretrained landmark detector. Then, we estimate warping flows between the source image and each driving frame according to concatenated input. We further refine the warped source input using an ID-preserving network. Finally, we enhance and upsample the 256x256 results to high-fidelity output in 512x512.
           </p>
         </div>
         
       </div>
     </div>
-    <!--/ Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <h3 class="title is-4">Self Reconstruction</h3>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/GGLqfTCITgM"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <br>
+        <h3 class="title is-4">Cross Reenactment</h3>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/UKye3mbCocQ"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <br>
+        <h3 class="title is-4">Fast Personalization</h3>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/NXvtYH38Z60"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

@@ -1,6 +1,6 @@
-# Nerfies
+# MetaPortrait
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [MetaPortrait website](https://meta-portrait.github.io/). We thank the authors of [Nerfies](https://nerfies.github.io) for sharing the webpage templates.
 
 If you find Nerfies useful for your work please cite:
 ```
